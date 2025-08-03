@@ -3,7 +3,8 @@ import requests
 import os
 
 TOKEN = os.environ.get("BOT_TOKEN")
-URL = f"https://api.telegram.org/bot{TOKEN}/"
+URL = https://api.telegram.org/bo7984880246:AAHl6hcrprel6GLQ5mti6xeioPA0IaGWQSU/setWebhook?url=https://seu-bot.onrender.com/7984880246:AAHl6hcrprel6GLQ5mti6xeioPA0IaGWQSU
+
 
 app = Flask(__name__)
 
@@ -32,3 +33,4 @@ def home():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
