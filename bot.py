@@ -14,7 +14,7 @@ def send_message(chat_id, text):
 def webhook():
     data = request.get_json()
     if "message" in data:
-        chat_id = data["message"]["chat"]["id"]
+        chat_id = data["message"]["chat"]["id]"]
         text = data["message"].get("text", "")
 
         if text.startswith("/cpf"):
